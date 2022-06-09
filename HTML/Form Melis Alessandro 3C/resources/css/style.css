@@ -1,0 +1,121 @@
+body {
+    font-family: Helvetica;
+}
+
+h1 {
+    padding: 30px;
+    text-align: center;
+    color: rgb(70, 70, 70);
+    letter-spacing: 3px;
+}
+
+#form {
+    display: flex;
+    justify-content: center;
+}
+
+
+.item, #day, #month, #year, #gender_selection, #checkboxes, #textarea_container {
+    margin-bottom: 10px;
+}
+
+.label {
+    margin-left: 10px;
+}
+
+.label, .label_nospacing, #reset, #submit {
+    font-weight: bold;
+    color: rgb(70, 70, 70);
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.textbox {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+
+.textbox:focus, #textarea_container:focus {
+    border: 2px solid rgb(100, 100, 255);
+    outline: none;
+}
+
+#date {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+
+#day, #month, #year {
+    background: transparent;
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#gender_selection {
+    display: flex;
+    justify-content: space-between;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#reset, #submit {
+    font-family: inherit;
+    width: 100%;
+    background: transparent;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#reset {
+    color: rgb(255, 125, 125);
+    border: 2px solid rgb(255, 125, 125);
+    cursor: pointer;
+}
+
+#submit {
+    color: rgb(60, 170, 60);
+    border: 2px solid rgb(60, 170, 60);
+    cursor: pointer;
+}
+
+#reset:hover {
+    color: white;
+    background: rgb(255, 125, 125);
+}
+
+#submit:hover {
+    color: white;
+    background: rgb(60, 170, 60);
+}
+
+#checkboxes, #textarea {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+#textarea_container {
+    font-family: Helvetica;
+    resize: none;
+    padding: 10px;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+
+#infos {
+    font-family: Helvetica;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: grey;
+}
