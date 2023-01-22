@@ -1,0 +1,76 @@
+header > .content {
+    align-items: center;
+}
+
+header > .content > div > nav {
+    flex-direction: row;
+}
+
+header > .content > div > a {
+    display: none;
+}
+
+header > .content > div > nav > a {
+    text-decoration: none;
+    color: white;
+}
+
+header > .content > div > nav > a:nth-child(6) {
+    outline: white solid 2px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+/* main landing page div */
+.content {
+    max-width: 75%;
+    margin: auto;
+}
+
+
+#landingDiv {
+    display: flex;
+
+    height: 80vh;
+    background: linear-gradient(195deg, rgba(137,86,171,1) 0%, rgba(51,60,110,1) 50%, rgba(0,0,0,1) 100%); 
+    
+}
+
+#landingDiv > .content {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: left;
+    width: 75%;
+}
+
+
+#landingDiv > .content > #text > h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+#landingDiv > .content > #text > p {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+
+/* form */
+#form > .content > form {
+    max-width: 50%;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 20px;
+}
+
+#form > .content > form > input[type="submit"] {
+    width: 50%;
+}
+
+
+/* footer */
+footer > .content {
+    flex-direction: column;
+    gap: 5vh;
+}
