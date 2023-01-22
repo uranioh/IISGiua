@@ -1,0 +1,125 @@
+/* General page properties */
+html, body {
+    margin: 0;
+}
+
+body {
+    line-height: 1.45;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Lucida, Arial, sans-serif;
+    background: #FFF;
+    color: #333;
+}
+
+p {
+    margin: 0 0 1em;
+}
+
+h2 {
+    font-size: 160%;
+    margin: 0 0 0.3em;
+    color: #004BAA;
+}
+
+
+/* Header & Navigation Bar */
+div#header {
+    color: #FFF;
+    background: #A41B1B;
+}
+
+div#header h1 {
+    margin: 0;
+    padding: 20px 0;
+    padding-left: 22%;
+    text-align: left;
+    font-weight: lighter;
+}
+
+div#navbar {
+    padding: 20px 0;
+    padding-left: 22%;
+    background: #741313;
+    text-align: left;
+    margin-bottom: 2em;
+}
+
+div#navbar a {
+    padding-right: 30px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+
+/* Main flex container */
+div#container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 2%;
+}
+
+/* Left column menu navigation */
+div#left-column {
+    width: 20%;
+}
+
+div#left-column a {
+    display: block;
+    text-align: right;
+    height: 1.3em;
+    padding: 1px 0;
+    font-size: 110%;
+    background: #FFF;
+    color: #A64B1B;
+    text-decoration: none;
+}
+
+div#left-column a:hover {
+    color: #7F2D01;
+}
+
+/* Center column actual page content */
+div#center-column {
+    width: 40%;
+}
+
+div#center-column p {
+    text-align: justify;
+}
+
+/* Right column content browser */
+div#right-column {
+    display: block;
+}
+
+div#right-column a {
+    display: inherit;
+    height: 1.3em;
+    padding: 1px 0;
+    font-size: 110%;
+    background: #FFF;
+    color: #A64B1B;
+    text-decoration: none;
+}
+
+/* Apply top margin to both left and right columns */
+div#left-column, div#right-column {
+    margin-top: 2.7em;
+}
+
+
+/* Footer */
+div#footer {
+    margin-top: 3em;
+
+    height: 100px;
+    background: #95B3B3;
+    color: white;
+    
+    display: flex;
+    align-items: center;
+}
+
+div#footer p {
+    margin: auto;
+    margin-left: 22%;
+}
