@@ -1,0 +1,108 @@
+<html lang="it">
+<head>
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+</head>
+<body>
+<form onsubmit="submitForm(event)" method="post" name="form" id="form">
+    <label>
+        <span>Cognome</span>
+        <input type="text" name="cognome" maxlength="20">
+    </label>
+
+
+    <label>
+        <span>Nome</span>
+        <input type="text" name="nome" maxlength="20">
+    </label>
+
+
+    <label>
+        <span>Matricola</span>
+        <input type="text" name="matricola" maxlength="20">
+    </label>
+
+
+    <label>
+        <span>Regione</span>
+        <select name="regione">
+            <option value="none" selected></option>
+            <option value="valdaosta">Valle D'Aosta</option>
+            <option value="piemonte">Piemonte</option>
+            <option value="liguria">Liguria</option>
+            <option value="lombardia">Lombardia</option>
+            <option value="veneto">Veneto</option>
+            <option value="trentino">Trentino Alto Adige</option>
+            <option value="friuli">Friuli Venezia-Giulia</option>
+            <option value="emilia">Emilia-Romagna</option>
+            <option value="toscana">Toscana</option>
+            <option value="marche">Marche</option>
+            <option value="umbria">Umbria</option>
+            <option value="lazio">Lazio</option>
+            <option value="abruzzo">Abruzzo</option>
+            <option value="molise">Molise</option>
+            <option value="campania">Campania</option>
+            <option value="basilicata">Basilicata</option>
+            <option value="puglia">Puglia</option>
+            <option value="calabria">Calabria</option>
+            <option value="sicilia">Sicilia</option>
+            <option value="sardegna">Sardegna</option>
+        </select>
+    </label>
+
+    <label>
+        <span>Email</span>
+        <input type="text" name="email" maxlength="30">
+    </label>
+
+    <label>
+        <span>Telefono</span>
+        <input type="text" name="tel" maxlength="13">
+    </label>
+
+
+    <label>
+        <span>Richieste</span>
+        <textarea name="richieste" cols="60" rows="3"></textarea>
+    </label>
+
+    <div id="buttons">
+        <input type="submit" value="Invia">
+        <input type="reset" value="Reset">
+    </div>
+</form>
+
+<!--<div id="result">-->
+<!--    <div id="lName">-->
+<!--        <h3>Cognome: </h3>-->
+<!--        <p class="value"></p>-->
+<!--    </div>-->
+<!--    <div id="fName">-->
+<!--        <h3>Nome: </h3>-->
+<!--        <p class="value"></p>-->
+<!--    </div>-->
+<!--    <div id="matricola">-->
+<!--        <h3>Matricola: </h3>-->
+<!--        <p class="value"></p>-->
+<!--    </div>-->
+<!--    <div id="regione">-->
+<!--        <h3>Regione: </h3>-->
+<!--        <p class="value"></p>-->
+<!--    </div>-->
+<!--    <div id="email">-->
+<!--        <h3>Email: </h3>-->
+<!--        <p class="value"></p>-->
+<!--    </div>-->
+<!--    <div id="tel">-->
+<!--        <h3>Telefono: </h3>-->
+<!--        <p class="value"></p>-->
+<!--    </div>-->
+<!--    <div id="richieste">-->
+<!--        <h3>Richieste: </h3>-->
+<!--        <p class="value"></p>-->
+<!--    </div>-->
+<!--</div>-->
+</body>
+</html>

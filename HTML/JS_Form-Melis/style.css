@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    margin: 20px auto;
+    width: fit-content;
+    padding: 50px;
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+    gap: 20px;
+}
+
+form > label {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form > label > span {
+    font-weight: bold;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+form > label > input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%; /* Added to make input fields occupy full width */
+}
+
+form > label > select {
+    border: 1px solid #ccc;
+    background-color: #fff;
+
+    padding: 10px;
+    border-radius: 5px;
+}
+
+form > label > textarea {
+
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+    resize: none;
+}
+
+.result {
+    visibility: hidden;
+}
